@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
     public partial class Form1 : Form
     {
         string[] todoarr = null;
-        public string json_data = null;
+        public string json_data = "[]";
         public string file_path = "todos.json";
         public bool isFirstActionComplete = false;
 
